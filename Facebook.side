@@ -5,7 +5,7 @@
   "url": "https://web.facebook.com",
   "tests": [{
     "id": "02bd3fb0-51ba-41fa-81f1-2869cb07c560",
-    "name": "Untitled",
+    "name": "Facebook login",
     "commands": [{
       "id": "8eec4ec4-ee72-4a93-bd2c-728c4c26a00d",
       "comment": "",
