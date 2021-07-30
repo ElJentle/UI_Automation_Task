@@ -4,12 +4,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
+import org.tnotations.Test;
+
+import java.util.concurrent.estng.annotations.AfterClass;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
-
-import java.util.concurrent.TimeUnit;
+import org.testng.anTimeUnit;
 
 public class LoginTests {
     // import the selenium webDriver
@@ -20,7 +20,7 @@ public class LoginTests {
         System.setProperty("webdriver.chrome.driver", "resources/chromeDriver.exe");
         driver = new ChromeDriver();
         // Input project URL = Deydam login URL
-        driver.get("https://dev.d2rxvhrryr2bkn.amplifyapp.com/login");
+        driver.get("https://dev.d2rxvhrrr2bkn.amplifyapp.com/login");
         // waiting for globally
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         // maximize window
